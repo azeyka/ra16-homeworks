@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import './css/main.css';
-import ShopItemFunc from './components/ShopItemFunc';
+import './css/main.css'
+import ShopItemClass from './components/ShopItemClass';
 import {Item} from './models/Item'
 
 function App() {
@@ -22,10 +22,10 @@ function App() {
         <div className='highlight-overlay'></div>
       </div>
       <div className="window">
-        <ShopItemFunc item={item} />
+        <ShopItemClass item={item} />
       </div>
     </div>
-  )
+  );
 }
 
 export default App;
