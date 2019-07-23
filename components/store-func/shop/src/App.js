@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import './css/main.css';
 import ShopItemFunc from './components/ShopItemFunc';
 import {Item} from './models/Item'
 
